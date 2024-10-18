@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+
+  --primary: #d25c0d;
+  --primary-010: #bd530c;
+  --primary-050: #692e07;
+
+  --white: #fff;
+  --white-010: #F4DBCB;
+  --white-020: #dcc5b7;
+  --white-50: #7a6e66;
+
+  --black: #1b180c;
+  --black-010: #2a2a30;
+  --black-020: #18160b;
+  --black-050: #0e0c06;
+
+  --grey: #9b9ba0;
+
+  // color site portifolio
+  --blue: #7290f0;
+  --blue-10:#96affa;
+
+  --grey-light: #e9eaee;
+  --grey-footer: #333333;
+
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
