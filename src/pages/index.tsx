@@ -2,14 +2,7 @@ import Head from 'next/head'
 import styles from '../../styles/Home.module.css'
 import { Header } from './../components/header/index';
 import { Footer } from '../components/footer';
-
-
-// material ui
-
-
-
-
-
+import HomePage from './Home';
 
 export default function Home() {
 
@@ -27,11 +20,7 @@ export default function Home() {
         />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto&display=swap" rel="stylesheet"/>
       </Head>
-      <Header />
-      <div className={styles.container}>
-        <h1>Ola mundo</h1>
-      </div>
-      <Footer />
+      <HomePage />
     </>
   )
 }
