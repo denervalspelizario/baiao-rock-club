@@ -1,0 +1,223 @@
+
+.menuContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d25c0d;
+}
+
+.menuUp {
+  width: 80%;
+  max-width: 1200px;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menuLogo{
+  width: 100px;
+  height: 100px;
+}
+
+.menuLinksUp {
+
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  position: relative;
+  top: 30px;
+
+}
+
+.menuLinkUpSocial {
+  width: 20px;
+  height: 20px;
+  transition: 0.4s all;
+}
+
+.menuLinkUpSocial:hover{
+  transform: scale(1.3);
+  transition: transform 0.3s ease;
+}
+
+.menuLinkLogin {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  top: 5px;
+  color: var(--black);
+  text-decoration: none;
+  transition: 0.4s all; /* Corrigido: 0.4s */
+  display: inline-block; /* Adicionado */
+}
+
+.menuLinkLogin:hover {
+  transform: scale(1.3);
+  transition: transform 0.3s ease;
+}
+
+.menuContainerDown {
+  background: #FFF;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuDown {
+  width: 85%;
+  max-width: 1200px;
+  height: 50px;
+  display: flex;
+  justify-content:flex-end;
+  align-items:center;
+}
+
+.menuDown ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.menuDown li {
+  display: inline-block;
+  position: relative;
+
+}
+
+.menuDown a {
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+  color: var(--black);
+  text-decoration: none;
+  display: inline-block;
+}
+
+.menuDown a:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
+
+.btnDrawer{
+  background-color: transparent;
+  color: black;
+  padding: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  border-radius: 5px;
+  text-transform: none;
+  font-weight: 600;
+  transition: transform 0.3s ease;
+  border: none;
+  cursor: pointer;
+
+}
+
+
+.button, .btnDrawer {
+  background-color: transparent;
+  color: black;
+  padding: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  border-radius: 5px;
+  text-transform: none;
+  font-weight: 600;
+  transition: transform 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: scale(1.2);
+}
+
+.btnDrawer:hover {
+  transform: scale(1.2);
+}
+
+
+@media (max-width: 600px) {
+
+  .menuContainer {
+    width: 100%;
+    padding: 20px 0px;
+  }
+
+  .menuUp {
+    
+    width: 90%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menuLinksUp {
+
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    position: relative;
+    top: -5px;
+  
+  }
+  
+  
+
+  .menuDown {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+  }
+
+  
+  .menuContainerMiddle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d25c0d;
+    visibility: visible;
+  }
+
+  .menuDown a {
+    display: flex;
+    padding: 10px 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+    color: var(--black);
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .menuDown a:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+  }
+
+  .btnDrawer{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .button {
+    font-size: 14px;
+  }
+}
