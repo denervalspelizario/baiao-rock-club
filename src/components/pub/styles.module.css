@@ -1,0 +1,53 @@
+
+.containerPub {
+  background: #d25c0d;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.containerPubUp{
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: #FFF;
+  height: 80px;
+    
+}
+
+
+.containerPubUp h2{
+  font-size: 34px;
+  font-family: 'Montserrat', sans-serif;
+    
+}
+
+.containerPubDown{
+  width: 80%;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+  flex-wrap: wrap;
+  
+    
+}
+
+@media (max-width: 1150px) {
+
+  .containerPubDownCard{
+    margin: 0 10px;
+  }
+  .containerPubDown{
+    
+    justify-content: center;
+    align-items: center;
+      
+  }
+}
