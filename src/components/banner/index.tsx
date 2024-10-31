@@ -43,7 +43,7 @@ export default function Banner(){
 
   return(
     <>
-    <div className={styles.containerHome}>
+    <div className={styles.containerBanner}>
 
       <div className={styles.carouselContainer}>
 

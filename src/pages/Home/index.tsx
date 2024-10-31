@@ -4,6 +4,7 @@ import { Footer } from '../../components/footer';
 
 import OPub from '@/src/components/pub';
 import Banner from '@/src/components/banner';
+import Agenda from '@/src/components/agenda';
 
 
 
@@ -15,6 +16,7 @@ export default function HomePage() {
       <Header />
       <Banner />
       <OPub />
+      <Agenda />
       <Footer />
     </>
   );
