@@ -5,6 +5,8 @@
   
   text-align: center;
   background-color:  #d25c0d;
+  padding-bottom: 60px;
+  
 }
 
 .containerAgendaUp{
@@ -15,6 +17,7 @@
   align-items: center;
   background: #FFF;
   height: 80px;
+  margin-bottom: 20px;
     
 }
 
@@ -34,6 +37,7 @@
 
 .carouselContainerDown {
   width: 80%;
+  max-width:  1024px;
   overflow: hidden;
 }
 
@@ -82,12 +86,12 @@
 
 .button {
   position: absolute;
-  top: 60%;
+  top: 50%;
   transform: translateY(-50%);
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   border: none;
-  padding: 7px 5px 0px 5px;
+  padding: 7px 10px 0px 5px;
   margin: 0 20px;
   cursor: pointer;
   border-radius: 50%;

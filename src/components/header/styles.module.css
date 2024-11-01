@@ -9,7 +9,7 @@
 
 .menuUp {
   width: 80%;
-  max-width: 1200px;
+  max-width: 1024px;
   height: 150px;
   display: flex;
   justify-content: space-between;
@@ -70,7 +70,7 @@
 
 .menuDown {
   width: 85%;
-  max-width: 1200px;
+  max-width: 1024px;
   height: 50px;
   display: flex;
   justify-content:flex-end;
