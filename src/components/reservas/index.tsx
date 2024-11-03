@@ -6,7 +6,7 @@ import styles from './styles.module.css';
 export default function Reservas(){
   return(
     <>
-    <div className={styles.containerReservas}>
+    <div className={styles.containerReservas} id='reserva'>
       <div className={styles.containerReservasUp}>
         <h2>Reservas</h2>
       </div>

@@ -1,5 +1,7 @@
 import styles from "./styles.module.css";
 import Link from "next/link";
+// components/Menu.js
+import { Link as ScrollLink } from 'react-scroll';
 
 
 export function Header() {
@@ -9,9 +11,9 @@ export function Header() {
       <div className={styles.menuContainer} id="home">
         <nav className={styles.menuUp}>
 
-          <Link href="#home" className={styles.menuUpLogo}>
+          <ScrollLink to="home" smooth={true} duration={500} className={styles.menuUpLogo}>
             <img className={styles.menuLogo} src="/assets/baiao-logo.png" alt="logo-site" />
-          </Link>
+          </ScrollLink>
 
           <ul  className={styles.menuLinksUp}>
 
@@ -71,16 +73,16 @@ export function Header() {
             <ul  className={styles.menuLinksDown}>
 
               <li  className={styles.menuLinkDown}>
-                <Link href="#eventos">Home</Link>
+                <ScrollLink to="home" smooth={true} duration={500}>Home</ScrollLink>
               </li>  
               <li  className={styles.menuLinkDown}>
-                <Link href="#eventos">O Pub</Link>
+                <ScrollLink to="pub" smooth={true} duration={500}>O Pub</ScrollLink>
               </li>
               <li className={styles.menuLinkDown}>
-                <Link href="#galeria">Agenda</Link>
+                <ScrollLink to="agenda" smooth={true} duration={500}>Agenda</ScrollLink>
               </li>
               <li className={styles.menuLinkDown}>
-                <Link href="#cardapio">Reservas</Link>
+                <ScrollLink to="reserva" smooth={true} duration={500}>Reservas</ScrollLink>
               </li>
             </ul>
           </nav>

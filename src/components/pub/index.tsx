@@ -39,7 +39,7 @@ const dadosOPub = [
 export default function OPub(){
   return(
     <>
-    <div className={styles.containerPub}>
+    <div className={styles.containerPub} id='pub'>
       <div className={styles.containerPubUp}>
 
         <h2>O Pub</h2>
@@ -49,7 +49,7 @@ export default function OPub(){
 
         {dadosOPub.map((dados) => (
 
-          <div className={styles.containerPubDownCard}>
+          <div className={styles.containerPubDownCard} key={dados.id}>
 
             <Card sx={{ width: 300, height: 350, borderRadius: 10, marginTop: 5 }}>
               <CardActionArea>
