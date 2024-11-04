@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Link as ScrollLink } from 'react-scroll';
 
 
-export function Header() {
+export function HeaderSecond() {
 
   return(
     <>
@@ -74,32 +74,16 @@ export function Header() {
 
               <li  className={styles.menuLinkDown}>
                 <Link href="Home/">Home</Link>
-              </li>  
-              <li  className={styles.menuLinkDown}>
-                <ScrollLink to="pub" smooth={true} duration={500}>O Pub</ScrollLink>
               </li>
-              <li className={styles.menuLinkDown}>
-                <ScrollLink to="agenda" smooth={true} duration={500}>Agenda</ScrollLink>
-              </li>
-              <li className={styles.menuLinkDown}>
-                <ScrollLink to="reserva" smooth={true} duration={500}>Reservas</ScrollLink>
-              </li>
-            </ul>
-          </nav>
-        </div>
-
-        <div  className={styles.menuContainerDown}>
-          <nav  className={styles.menuDown}>
-            <ul  className={styles.menuLinksDown}>
               <li  className={styles.menuLinkDown}>
                 <Link href="/eventos">Eventos</Link>
               </li>  
               <li  className={styles.menuLinkDown}>
-                <Link href="#eventos">Galeria</Link>
+                <Link href="/galeria">Galeria</Link>
               </li>
               <li className={styles.menuLinkDown}>
-                <Link href="#galeria">Contato</Link>
-              </li>
+                <Link href="/contato">Contato</Link>
+              </li>  
             </ul>
           </nav>
         </div>
